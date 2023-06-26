@@ -6,10 +6,10 @@ on:
       rom_url:
         description: '官方下载直链'
         required: true
-        default: 'https://wlansysupwrrdl.vivo.com.cn/upgrade/recovery/recoveryFiles/20230404211028f3956e5ab47088575793c14b1a6c1b80.zip?sign=9126d2337a7023d4a8f2f559d824799a&t=645fbcc9'
+        default: 'sysupawdl.vivoglobal.com/upgrade/oem/files/202305070016077e822b1ab5f6d840dc6c0c28a00fdc53.zip'
       removeAvb:
         description: '修补 boot 镜像中的 vbmeta'
-        default: "false"
+        default: "true"
         type: boolean
         
       aliYun:
